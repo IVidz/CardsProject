@@ -2,21 +2,42 @@
     display: flex;
 }
 .card {
-    background-color: darkseagreen;
+    display: flex;
+    background-color: lightgray;
     width: 450px;
     height: 300px;
+    border-radius: 15px;
+    flex-direction: column;
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+.title {
+    display: flex;
+    justify-content: center;
+    background-color: dimgrey;
+    padding: 2px 0 0 2px;
+
+}
+.content {
+    display: flex;
 }
 .photo-area {
-
+    position: relative;
 }
 .photo {
     width: 150px;
     height: 150px;
+    border-radius: 20px;
+    padding: 30px 15px;
 }
 .health {
-
+    position: absolute;
+    padding:  7px 1px 1px 12px;
 }
 .info {
-    display: flex;
+    background-color: dimgrey;
+    width: 250px;
+    height: 175px;
     justify-content: end;
 }

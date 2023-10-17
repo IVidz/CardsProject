@@ -4,7 +4,7 @@
 .card {
     display: flex;
     background-color: lightgray;
-    width: 450px;
+    width: 425px;
     height: 300px;
     border-radius: 15px;
     flex-direction: column;
@@ -15,29 +15,41 @@
 .title {
     display: flex;
     justify-content: center;
-    background-color: dimgrey;
-    padding: 2px 0 0 2px;
-
+}
+h1 {
+    color: darkslategrey;
+    font-size: 40px;
 }
 .content {
     display: flex;
+    flex-direction: row;
 }
 .photo-area {
     position: relative;
+    width: 225px;
+    padding-left: 20px;
 }
 .photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 20px;
-    padding: 30px 15px;
+    width: 170px;
+    height: 170px;
+    border-radius: 25px;
 }
 .health {
     position: absolute;
-    padding:  7px 1px 1px 12px;
+}
+h3 {
+    font-size: 20px;
 }
 .info {
-    background-color: dimgrey;
     width: 250px;
     height: 175px;
-    justify-content: end;
+    padding-left: 30px;
+}
+h2 {
+    color: darkslategrey;
+    font-size: 27px;
+}
+p {
+    color: darkslategrey;
+    font-size: 18px;
 }

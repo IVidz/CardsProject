@@ -1,13 +1,15 @@
 .card-area {
     display: flex;
+    flex-wrap: wrap;
 }
 .card {
     display: flex;
     background-color: lightgray;
     width: 425px;
-    height: 300px;
+    height: 275px;
     border-radius: 15px;
     flex-direction: column;
+    margin: 15px;
 }
 .card:hover {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
@@ -15,6 +17,7 @@
 .title {
     display: flex;
     justify-content: center;
+    height: 90px;
 }
 h1 {
     color: darkslategrey;
@@ -36,6 +39,8 @@ h1 {
 }
 .health {
     position: absolute;
+    height: 60px;
+    opacity: 0.6;
 }
 h3 {
     font-size: 20px;

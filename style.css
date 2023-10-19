@@ -15,9 +15,7 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
 }
 .title {
-    display: flex;
-    justify-content: center;
-    height: 90px;
+    text-align: center;
 }
 h1 {
     color: darkslategrey;
@@ -26,6 +24,7 @@ h1 {
 .content {
     display: flex;
     flex-direction: row;
+    margin-top: -10px;
 }
 .photo-area {
     position: relative;
@@ -41,6 +40,8 @@ h1 {
     position: absolute;
     height: 60px;
     opacity: 0.6;
+    margin-top: -20px;
+    margin-left: 6px;
 }
 h3 {
     font-size: 20px;
